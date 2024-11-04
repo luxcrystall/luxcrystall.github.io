@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #2c3e50;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #2c3e50;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    left: 0;
+}
+
+section#biography {
+    background: linear-gradient(to right, #f0f2f5, #dfe6e9);
+    color: #2c3e50;
+    height: 600px;
+}
+
+section#biography img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#fotoprofil {
+    float: left;
+    margin: 10px 0 0 120px;
+}
+
+#perkenalan {
+    float: left;
+    margin: 75px 0 0 50px;
+}
+
+section#biography h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section#biography p {
+    font-size: 22px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+
+section#skills {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    height: 600px;
+    text-align: center;
+}
+
+section#skills h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.skill-item {
+    background: #34495e;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+#skills img {
+    width: 200px;
+    height: 200px;
+    margin: 30px 52px;
+}
+
+section#organization {
+    background: #ecf0f1;
+    color: #2c3e50;
+    height: 600px;
+}
+
+section#organization h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.organization-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 20px;
+}
+
+.organization-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.organization-card h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+section#dream {
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    color: #fff;
+    height: 600px;
+}
+
+section#dream h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section#dream p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
