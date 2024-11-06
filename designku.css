@@ -85,6 +85,9 @@ section#biography p {
 }
 
 @media (max-width: 768px) {
+    nav ul li {
+    margin: 0 0px;
+    }
     #fotoprofil {
         float: none;
         margin: auto;
