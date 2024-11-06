@@ -84,6 +84,19 @@ section#biography p {
     margin: auto;
 }
 
+@media (max-width: 768px) {
+    #fotoprofil {
+        float: none;
+        margin: auto;
+    }
+
+    #perkenalan {
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
 section#skills {
     background-color: #2c3e50;
     color: #ecf0f1;
@@ -119,6 +132,25 @@ section#skills h1 {
     margin: 30px 52px;
 }
 
+@media (max-width: 768px) {
+    section#skills {
+        height: auto;
+    }
+
+    #skills img {
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .skillsimg-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px 30px;
+    }
+}
+
 section#organization {
     background: #ecf0f1;
     color: #2c3e50;
@@ -147,6 +179,15 @@ section#organization h1 {
     margin-top: 0;
     font-size: 1.3em;
     margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .organization-container {
+        display: block;
+    }
+    .organization-card {
+        margin-top: 20px;
+    }
 }
 
 section#dream {
