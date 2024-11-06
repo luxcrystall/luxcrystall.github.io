@@ -86,7 +86,10 @@ section#biography p {
 
 @media (max-width: 768px) {
     nav ul li {
-    margin: 0 0px;
+        margin: 0 0px;
+    }
+    nav {
+        overflow-x: scroll;
     }
     #fotoprofil {
         float: none;
